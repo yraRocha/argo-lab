@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: nginx.192.168.68.240.nip.io
+  - host: app.192.168.68.240.nip.io
     http:
       paths:
       - path: /
